@@ -1,0 +1,1037 @@
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-21T19:06:50.759Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-21T19:47:05.495Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:51:43.143Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:51:43.936Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:51:44.424Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-21T19:51:44.482Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:51:51.859Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-21T19:51:51.896Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:51:58.162Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:52:06.804Z"}
+{"level":"info","message":"PUT /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:52:34.502Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:52:45.667Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-21T19:52:45.695Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:52:59.427Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:52:59.443Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:53:36.116Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:53:36.736Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:05.808Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:05.818Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:26.795Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:27.467Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:27.983Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-21T19:55:28.012Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:30.548Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f7d9b30d4bf360e9d379da/taken - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:35.391Z"}
+{"level":"info","message":"Medication Memantine marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:35.409Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:35.503Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:40.658Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68f7d9b30d4bf360e9d379e7/complete - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:46.553Z"}
+{"level":"info","message":"Task Light exercise marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:46.580Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:46.649Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68f7d9b30d4bf360e9d379e6/complete - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:51.982Z"}
+{"level":"info","message":"Task Doctor appointment marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:51.994Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:55:52.086Z"}
+{"level":"info","message":"PUT /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:12.775Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:25.374Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:25.385Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:32.490Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:33.134Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:50.097Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-21T19:56:50.108Z"}
+{"level":"info","message":"POST /api/auth/register - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:59:56.206Z"}
+{"level":"info","message":"New patient registered: darshan@gmail.com with username: pat_2051","service":"adaptive-care-api","timestamp":"2025-10-21T19:59:56.855Z"}
+{"level":"info","message":"GET /api/patients/68f7e63ccdb3d4ec5af3ca19/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T19:59:57.177Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-21T19:59:57.194Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T20:00:29.875Z"}
+{"level":"info","message":"User logged out: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-21T20:00:29.885Z"}
+{"level":"info","message":"POST /api/auth/register - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-21T20:01:17.029Z"}
+{"level":"info","message":"New caregiver registered: don@gmail.com linked to patient: pat_2051","service":"adaptive-care-api","timestamp":"2025-10-21T20:01:17.683Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T07:58:00.826Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:00:23.174Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:08.748Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:25.146Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:25.163Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:48.334Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:48.646Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:49.577Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-22T08:03:49.600Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:03:55.859Z"}
+{"level":"info","message":"PUT /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:04:16.791Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:05:15.787Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:05:35.284Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareApp\\CareApp\\backend\\src\\controllers\\patientController.js:69:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-22T08:05:35.298Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:06:30.590Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:06:30.596Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T08:06:43.714Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:06:54.678Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:06:55.035Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:07:52.317Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:07:52.326Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:07:59.203Z"}
+{"level":"info","message":"User logged in: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:07:59.505Z"}
+{"level":"info","message":"GET /api/patients/68f7e63ccdb3d4ec5af3ca19/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:07:59.707Z"}
+{"level":"info","message":"GET /api/patients/68f7e63ccdb3d4ec5af3ca19/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:08:08.402Z"}
+{"level":"info","message":"GET /api/patients/68f7e63ccdb3d4ec5af3ca19/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:08:19.289Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:08:36.624Z"}
+{"level":"info","message":"User logged out: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:08:36.641Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:09:24.240Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T08:09:24.536Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:09:24.763Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:09:36.552Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:09:43.460Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T08:10:11.357Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T08:11:34.915Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T10:20:45.097Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:24:20.570Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:24:20.946Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:24:21.195Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:24:38.285Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:24:46.536Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68f7d9b30d4bf360e9d379e8/complete - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:01.158Z"}
+{"level":"info","message":"Task Call family marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:01.167Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:01.262Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:12.397Z"}
+{"level":"info","message":"POST /api/games/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:29.023Z"}
+{"level":"info","message":"Game statistics saved: memory-match for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:29.034Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:29.036Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:29.195Z"}
+{"level":"info","message":"POST /api/games/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:31.571Z"}
+{"level":"info","message":"Game statistics saved: sequence-recall for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:31.578Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:31.708Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:47.928Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:25:47.934Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:03.668Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:04.004Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:04.304Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:19.238Z"}
+{"level":"info","message":"POST /api/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:37.152Z"}
+{"level":"info","message":"New medication created: Dollo for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:37.160Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:37.579Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:41.408Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:26:51.185Z"}
+{"level":"info","message":"PUT /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:02.637Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:12.415Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:12.421Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:27.029Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:27.327Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:27.553Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:36.707Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f8b15dd621210819ae9971/skipped - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:55.372Z"}
+{"level":"info","message":"Medication Dollo marked as skipped for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:55.381Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:27:55.480Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:02.861Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:19.514Z"}
+{"level":"info","message":"POST /api/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:40.554Z"}
+{"level":"info","message":"New journal entry created for patient 68f7d9b20d4bf360e9d379c4 by patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:40.563Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:41.208Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:45.692Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:57.584Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:28:57.589Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:29:40.795Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:29:41.102Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:29:42.062Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:30:24.857Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T10:46:10.827Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T10:57:10.202Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:57:30.902Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:57:30.985Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:57:31.073Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:57:31.082Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:33.670Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:33.982Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:34.301Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:43.144Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:45.500Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:47.736Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:49.560Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:58.154Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:58:58.160Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:05.679Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:05.988Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:06.288Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:14.584Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:17.205Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:24.195Z"}
+{"level":"info","message":"PUT /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:28.539Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:35.477Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T10:59:35.482Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:39:48.608Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T12:39:48.902Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:39:49.189Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:39:59.288Z"}
+{"level":"info","message":"POST /api/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:28.759Z"}
+{"level":"info","message":"New medication created: Dolo for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:28.783Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:29.211Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:41.871Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:41.876Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:52.357Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:52.630Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:40:52.866Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:41:00.287Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:41:02.254Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:41:07.513Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T12:41:10.167Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T12:46:31.770Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T12:47:52.055Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T12:48:45.207Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:02:45.308Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:02:45.375Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:02:45.484Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:02:45.498Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:06:45.303Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:06:45.601Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:06:46.001Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:06:51.619Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:15:45.919Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:15:55.502Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:15:55.523Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:16:06.467Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:16:06.750Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:16:07.020Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:16:10.115Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:26.533Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:34.764Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:34.772Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:43.140Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:43.432Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:43.836Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:23:48.881Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:22.218Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:28.848Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:28.855Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:37.968Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:38.276Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:38.668Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:27:41.251Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:29:49.530Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:29:49.548Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:30:50.807Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:30:51.137Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:30:51.929Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:30:54.977Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T13:35:45.013Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:15.514Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:17.465Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:28.565Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:28.582Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:35.336Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:35.672Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:36.096Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:54.289Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:37:54.303Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:38:27.056Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T13:38:27.343Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:38:27.612Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:38:30.698Z"}
+{"level":"info","message":"POST /ocr - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:39:50.057Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T13:41:03.392Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T13:41:14.148Z"}
+{"level":"info","message":"POST /ocr - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:41:24.030Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T13:42:25.513Z"}
+{"level":"info","message":"POST /ocr - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:42:36.162Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T13:51:21.915Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T13:53:24.833Z"}
+{"level":"info","message":"POST /ocr - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T13:53:36.433Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T14:19:02.723Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T14:19:23.681Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:20:43.450Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:20:43.519Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:20:43.658Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:22:43.749Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:22:43.756Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:22:50.121Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:22:50.429Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:23:01.923Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:23:01.931Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:24:57.672Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:24:57.968Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:42.868Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:48.947Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:48.954Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:53.803Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:54.090Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:54.485Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:27:57.440Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:29:51.833Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:29:51.841Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:30:26.622Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:30:26.898Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:30:27.125Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:30:30.195Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:31.514Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:37.808Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:37.827Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:45.349Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:45.650Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:46.093Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:42:48.999Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:46.155Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:46.206Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:46.246Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:52.044Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:52.050Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:58.910Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:59.226Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:58:59.440Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T14:59:02.375Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:08:14.522Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:08:18.103Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T15:15:42.604Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:15:54.743Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:16:17.154Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:16:17.238Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:16:17.329Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T15:16:17.346Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:17:01.840Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T15:17:02.135Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:17:02.532Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:17:05.645Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:17:15.229Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:23:56.727Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:25:45.669Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:26:08.033Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:26:10.577Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:26:13.653Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:27:26.284Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:29:20.690Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:29:23.499Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:29:26.269Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:29:31.588Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:29:38.572Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:29:48.287Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:30:03.427Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:30:08.983Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:30:39.929Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:31:43.893Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:00.596Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:04.670Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:09.233Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:13.075Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:21.521Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:23.392Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:28.494Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:36.443Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:32:38.613Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T15:33:10.469Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:33:27.450Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:38:14.208Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:40:58.387Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:41:54.500Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:41:54.533Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:41:54.603Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:41:55.985Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:41:58.449Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:00.089Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:10.541Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:10.550Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:33.419Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:33.719Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:34.105Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T15:42:54.998Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T17:46:36.607Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.8","service":"adaptive-care-api","timestamp":"2025-10-22T17:52:02.028Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.8","service":"adaptive-care-api","timestamp":"2025-10-22T17:52:05.102Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T17:53:33.228Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:54:00.298Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T17:54:00.781Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:54:01.199Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:54:05.182Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:54:07.163Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:17.889Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:22.880Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:30.633Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:34.661Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:44.213Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:44.221Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:44.227Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:55.390Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:55.397Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:55:55.407Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T17:56:02.677Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.8","service":"adaptive-care-api","timestamp":"2025-10-22T17:56:21.700Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T17:56:35.228Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:56:45.684Z"}
+{"level":"info","message":"POST /api/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:57:08.522Z"}
+{"level":"info","message":"New medication created: Dolo for patient 68f90d293b620269c3753f97","service":"adaptive-care-api","timestamp":"2025-10-22T17:57:08.559Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:57:09.118Z"}
+{"level":"info","message":"POST /api/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:57:26.918Z"}
+{"level":"info","message":"New task created: M for patient 68f90d293b620269c3753f97","service":"adaptive-care-api","timestamp":"2025-10-22T17:57:26.931Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:57:27.465Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:58:36.274Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.8","service":"adaptive-care-api","timestamp":"2025-10-22T17:58:45.086Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:59:02.667Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:59:02.675Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T17:59:09.279Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T17:59:41.937Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.8","service":"adaptive-care-api","timestamp":"2025-10-22T17:59:48.240Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T17:59:58.830Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:20.238Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:20.281Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:30.136Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:30.697Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:31.034Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:37.686Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:41.801Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:01:42.759Z"}
+{"level":"info","message":"POST /api/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:04:47.537Z"}
+{"level":"info","message":"New medication created: Dolo for patient 68f90d293b620269c3753f97","service":"adaptive-care-api","timestamp":"2025-10-22T18:04:47.549Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:04:48.006Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:05:47.793Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:06:56.547Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:32.145Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:32.173Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:37.001Z"}
+{"level":"info","message":"User logged in: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:37.280Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:37.689Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\satvi\\Downloads\\care\\ALZ_CARE_APP\\CareApp - Copy\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\satvi\\Downloads\\care\\ALZ_CARE_APP\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\patientController.js:66:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-22T18:10:37.704Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:41.284Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:42.582Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/journal - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:43.654Z"}
+{"level":"info","message":"GET /api/games/patient/68f90d293b620269c3753f97/stats - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:10:50.236Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:12:55.571Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:04.701Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:04.979Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:05.380Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:08.225Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:10.121Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:10.958Z"}
+{"level":"info","message":"PUT /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:35.525Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.8","service":"adaptive-care-api","timestamp":"2025-10-22T18:13:57.478Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:14:43.730Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:14:43.737Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:14:51.568Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:14:51.822Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:14:52.842Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:15:00.388Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:15:02.016Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:15:04.115Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:15:11.288Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:15:11.295Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:03.828Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:04.092Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:04.512Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:08.198Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:10.000Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:46.460Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:46.465Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:57.486Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:57.731Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:16:58.069Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:17:04.779Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:17:05.210Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:17:05.923Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:17:50.996Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:00.905Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:00.911Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:12.492Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:12.746Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:13.234Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:15.804Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:27.021Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:29.617Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:37.508Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:38.906Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:42.067Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:42.219Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:42.393Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:18:42.621Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:19:43.036Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:19:47.986Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:19:54.170Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:19:58.856Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:20:02.789Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:20:07.071Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:20:12.687Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:20:17.434Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:20:21.372Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:20:25.577Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:12.550Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:49.370Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:49.649Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:50.160Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:53.173Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:56.681Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:21:57.765Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:00.882Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:01.020Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:01.167Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:01.318Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:27.726Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:38.528Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:22:56.253Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:23:25.206Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:02.638Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:05.976Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:11.455Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:11.469Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:19.380Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:19.672Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:20.162Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:23.308Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:25.495Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:24:36.029Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:03.895Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:10.424Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:19.706Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:23.909Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:29.661Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:36.058Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:41.098Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:46.778Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:26:52.908Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:00.858Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:32.507Z"}
+{"level":"info","message":"User logged in: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:32.771Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:33.297Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:38.507Z"}
+{"level":"info","message":"DELETE /api/medications/68f91af4180e688bf8905669 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:42.442Z"}
+{"level":"info","message":"Medication deleted: Dolo","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:42.451Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:42.580Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:44.273Z"}
+{"level":"info","message":"PUT /api/medications/68f91cbf2dc3bb21f45a7b57 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:47.225Z"}
+{"level":"info","message":"Medication updated: Dolo","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:47.234Z"}
+{"level":"info","message":"GET /api/medications/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:47.827Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:49.959Z"}
+{"level":"info","message":"POST /api/journal - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:59.001Z"}
+{"level":"info","message":"New journal entry created for patient 68f90d293b620269c3753f97 by satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:59.013Z"}
+{"level":"info","message":"GET /api/journal/patient/68f90d293b620269c3753f97 - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:27:59.587Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:31:11.133Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:31:23.323Z"}
+{"level":"info","message":"User logged out: satvik@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:31:23.329Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:31:40.566Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:31:58.007Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:34.362Z"}
+{"level":"info","message":"User logged in: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:34.646Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:35.016Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\satvi\\Downloads\\care\\ALZ_CARE_APP\\CareApp - Copy\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\satvi\\Downloads\\care\\ALZ_CARE_APP\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\patientController.js:66:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-22T18:32:35.032Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/medications - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:39.130Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:40.516Z"}
+{"level":"info","message":"POST /api/patients/68f90d293b620269c3753f97/tasks/68f91b06180e688bf8905670/complete - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:42.798Z"}
+{"level":"info","message":"Task M marked as completed for patient 68f90d293b620269c3753f97","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:42.808Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:42.932Z"}
+{"level":"info","message":"POST /api/patients/68f90d293b620269c3753f97/tasks/68f90db23b620269c3753fb7/complete - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:45.193Z"}
+{"level":"info","message":"Task Take tea marked as completed for patient 68f90d293b620269c3753f97","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:45.204Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/tasks - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:45.289Z"}
+{"level":"info","message":"GET /api/games/patient/68f90d293b620269c3753f97/stats - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:47.825Z"}
+{"level":"info","message":"GET /api/patients/68f90d293b620269c3753f97/dashboard - 192.168.1.13","service":"adaptive-care-api","timestamp":"2025-10-22T18:32:52.370Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\satvi\\Downloads\\care\\ALZ_CARE_APP\\CareApp - Copy\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\satvi\\Downloads\\care\\ALZ_CARE_APP\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\patientController.js:66:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-22T18:32:52.384Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-22T18:36:21.811Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:47:43.876Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:51:06.268Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:51:06.711Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:51:06.962Z"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","service":"adaptive-care-api","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at journalEntrySchema.statics.getMoodStats (C:\\Users\\Lenovo\\Downloads\\CareAppFFInal - Copy\\CareApp - Copy\\CareApp\\backend\\src\\models\\JournalEntry.js:107:35)\n    at C:\\Users\\Lenovo\\Downloads\\CareAppFFInal - Copy\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\patientController.js:66:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-22T18:51:06.992Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:34.631Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:38.480Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:45.649Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f8aa8bbc84777d23682131/taken - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:52.004Z"}
+{"level":"info","message":"Medication Dollo marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:52.037Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:52.096Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f8b15dd621210819ae9971/taken - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:55.186Z"}
+{"level":"info","message":"Medication Dollo marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:55.197Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:55.324Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f8d0bc20416efb8e419495/taken - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:58.059Z"}
+{"level":"info","message":"Medication Dolo marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:58.072Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:52:58.200Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f7d9b30d4bf360e9d379d8/skipped - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:02.214Z"}
+{"level":"info","message":"Medication Donepezil marked as skipped for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:02.224Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:02.313Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f7d9b30d4bf360e9d379da/skipped - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:06.158Z"}
+{"level":"info","message":"Medication Memantine marked as skipped for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:06.169Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:06.400Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:09.451Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:13.881Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:15.774Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:24.961Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:24.971Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:38.520Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:38.854Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:39.116Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:44.866Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:52.218Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:53:54.800Z"}
+{"level":"info","message":"DELETE /api/medications/68f8aa8bbc84777d23682131 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:04.558Z"}
+{"level":"info","message":"Medication deleted: Dollo","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:04.570Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:04.753Z"}
+{"level":"info","message":"DELETE /api/medications/68f8b15dd621210819ae9971 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:06.581Z"}
+{"level":"info","message":"Medication deleted: Dollo","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:06.590Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:06.728Z"}
+{"level":"info","message":"DELETE /api/medications/68f8d0bc20416efb8e419495 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:07.907Z"}
+{"level":"info","message":"Medication deleted: Dolo","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:07.916Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:08.031Z"}
+{"level":"info","message":"DELETE /api/medications/68f7d9b30d4bf360e9d379d8 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:09.104Z"}
+{"level":"info","message":"Medication deleted: Donepezil","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:09.114Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:09.225Z"}
+{"level":"info","message":"DELETE /api/medications/68f7d9b30d4bf360e9d379da - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:10.206Z"}
+{"level":"info","message":"Medication deleted: Memantine","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:10.214Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:10.333Z"}
+{"level":"info","message":"DELETE /api/medications/68f7d9b30d4bf360e9d379dc - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:11.552Z"}
+{"level":"info","message":"Medication deleted: Vitamin D","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:11.562Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:11.697Z"}
+{"level":"info","message":"DELETE /api/tasks/68f8aab7bc84777d23682137 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:14.126Z"}
+{"level":"info","message":"Task deleted: Hi","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:14.136Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:14.265Z"}
+{"level":"info","message":"DELETE /api/tasks/68f7d9b30d4bf360e9d379e8 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:15.448Z"}
+{"level":"info","message":"Task deleted: Call family","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:15.456Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:15.571Z"}
+{"level":"info","message":"DELETE /api/tasks/68f7d9b30d4bf360e9d379e5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:16.511Z"}
+{"level":"info","message":"Task deleted: Take morning medications","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:16.520Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:16.659Z"}
+{"level":"info","message":"DELETE /api/tasks/68f7d9b30d4bf360e9d379e7 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:17.859Z"}
+{"level":"info","message":"Task deleted: Light exercise","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:17.867Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:17.983Z"}
+{"level":"info","message":"DELETE /api/tasks/68f7d9b30d4bf360e9d379e6 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:19.316Z"}
+{"level":"info","message":"Task deleted: Doctor appointment","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:19.323Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:54:19.428Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:56:21.642Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:56:21.650Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:23.799Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:24.133Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:24.866Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:27.905Z"}
+{"level":"info","message":"POST /api/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:45.167Z"}
+{"level":"info","message":"New medication created: Dolo for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:45.184Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:45.668Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:57:50.830Z"}
+{"level":"info","message":"POST /api/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:20.486Z"}
+{"level":"info","message":"New task created: Walk for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:20.497Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:21.001Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:23.679Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:32.577Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:32.584Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:53.696Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:54.039Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:58:54.212Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:06.476Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68f92929d8893787312aa2ed/taken - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:09.477Z"}
+{"level":"info","message":"Medication Dolo marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:09.486Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:09.600Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:11.853Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68f9294cd8893787312aa2fa/complete - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:15.522Z"}
+{"level":"info","message":"Task Walk marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:15.532Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:15.598Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:18.563Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:21.939Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T18:59:47.401Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:12.841Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:29.695Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:29.703Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:36.834Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:37.162Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:37.464Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:40.724Z"}
+{"level":"info","message":"DELETE /api/medications/68f92929d8893787312aa2ed - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:44.529Z"}
+{"level":"info","message":"Medication deleted: Dolo","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:44.539Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:44.618Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:45.420Z"}
+{"level":"info","message":"DELETE /api/tasks/68f9294cd8893787312aa2fa - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:48.206Z"}
+{"level":"info","message":"Task deleted: Walk","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:48.215Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:48.324Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:52.838Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-22T19:00:52.847Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-23T04:29:46.459Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:32:48.636Z"}
+{"level":"info","message":"User logged in: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:32:49.488Z"}
+{"level":"info","message":"GET /api/patients/68f7e63ccdb3d4ec5af3ca19/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:32:49.785Z"}
+{"level":"info","message":"GET /api/games/patient/68f7e63ccdb3d4ec5af3ca19/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:32:56.948Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:33:20.512Z"}
+{"level":"info","message":"User logged out: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:33:20.533Z"}
+{"level":"info","message":"POST /api/auth/register - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:33:49.012Z"}
+{"level":"info","message":"New patient registered: ravi@gmail.com with username: pat_8332","service":"adaptive-care-api","timestamp":"2025-10-23T04:33:49.673Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:33:49.937Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:34:02.699Z"}
+{"level":"info","message":"User logged out: ravi@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:34:02.712Z"}
+{"level":"info","message":"POST /api/auth/register - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:34:40.487Z"}
+{"level":"info","message":"New caregiver registered: ram@gmail.com linked to patient: pat_8332","service":"adaptive-care-api","timestamp":"2025-10-23T04:34:41.120Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:34:41.434Z"}
+{"level":"info","message":"GET /api/medications/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:34:51.131Z"}
+{"level":"info","message":"POST /api/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:33.119Z"}
+{"level":"info","message":"New medication created: Dolo for patient 68f9b02d16d1a9a27dfeb1a5","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:33.228Z"}
+{"level":"info","message":"GET /api/medications/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:34.236Z"}
+{"level":"info","message":"PUT /api/medications/68f9b09516d1a9a27dfeb1c1 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:41.670Z"}
+{"level":"info","message":"Medication updated: Dolo","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:41.692Z"}
+{"level":"info","message":"GET /api/medications/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:42.523Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:45.109Z"}
+{"level":"info","message":"GET /api/journal/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:35:45.689Z"}
+{"level":"info","message":"POST /api/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:36:30.720Z"}
+{"level":"info","message":"New task created: G and drink water for patient 68f9b02d16d1a9a27dfeb1a5","service":"adaptive-care-api","timestamp":"2025-10-23T04:36:30.839Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:36:31.577Z"}
+{"level":"info","message":"POST /api/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:01.660Z"}
+{"level":"info","message":"New journal entry created for patient 68f9b02d16d1a9a27dfeb1a5 by ram@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:01.794Z"}
+{"level":"info","message":"GET /api/journal/patient/68f9b02d16d1a9a27dfeb1a5 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:03.266Z"}
+{"level":"info","message":"PUT /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:14.232Z"}
+{"level":"info","message":"PUT /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:24.759Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:30.356Z"}
+{"level":"info","message":"User logged out: ram@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:30.368Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:47.578Z"}
+{"level":"info","message":"User logged in: ravi@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:48.199Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:37:48.463Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:00.364Z"}
+{"level":"info","message":"POST /api/patients/68f9b02d16d1a9a27dfeb1a5/medications/68f9b09516d1a9a27dfeb1c1/taken - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:04.461Z"}
+{"level":"info","message":"Medication Dolo marked as taken for patient 68f9b02d16d1a9a27dfeb1a5","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:04.482Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:04.628Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:06.405Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:09.473Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:11.525Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:29.384Z"}
+{"level":"info","message":"POST /api/games/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:32.913Z"}
+{"level":"info","message":"Game statistics saved: sequence-recall for patient 68f9b02d16d1a9a27dfeb1a5","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:33.016Z"}
+{"level":"info","message":"POST /api/games/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:33.139Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:33.155Z"}
+{"level":"info","message":"Game statistics saved: sequence-recall for patient 68f9b02d16d1a9a27dfeb1a5","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:33.159Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:33.479Z"}
+{"level":"info","message":"POST /api/games/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:43.997Z"}
+{"level":"info","message":"Game statistics saved: sequence-recall for patient 68f9b02d16d1a9a27dfeb1a5","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:44.014Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:38:44.173Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:39:10.112Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:39:19.221Z"}
+{"level":"info","message":"POST /extract-medicine - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:39:47.746Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:41:11.779Z"}
+{"level":"info","message":"User logged out: ravi@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:41:11.791Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:33.411Z"}
+{"level":"info","message":"User logged in: ravi@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:34.072Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:34.314Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/medications - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:41.504Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/journal - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:45.280Z"}
+{"level":"info","message":"GET /api/patients/68f9b02d16d1a9a27dfeb1a5/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:46.731Z"}
+{"level":"info","message":"GET /api/games/patient/68f9b02d16d1a9a27dfeb1a5/stats - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T04:42:48.262Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:44.814Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:44.853Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:44.915Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:52.000Z"}
+{"level":"info","message":"User logged out: ravi@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:52.007Z"}
+{"level":"info","message":"POST /api/auth/login - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:57.959Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:58.246Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:09:58.818Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:00.457Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:01.516Z"}
+{"level":"info","message":"POST /api/tasks - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:26.043Z"}
+{"level":"info","message":"New task created: Take for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:26.051Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:26.510Z"}
+{"level":"info","message":"DELETE /api/tasks/68f9b8c216d1a9a27dfeb272 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:29.680Z"}
+{"level":"info","message":"Task deleted: Take","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:29.695Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:29.824Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:30.601Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.97.97.187","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:36.672Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T05:10:36.679Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-23T19:14:05.113Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:15:50.278Z"}
+{"level":"info","message":"POST /api/auth/refresh - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:15:50.341Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:05.632Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:06.032Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:06.401Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:11.691Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:13.530Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:15.293Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:20.656Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:20.668Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:34.846Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:35.186Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:16:35.534Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-23T19:25:40.989Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:28:55.314Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:29:00.928Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:29:00.973Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:29:06.689Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:29:07.144Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:29:07.907Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:29:14.834Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:30:04.253Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:30:33.246Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:30:35.262Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:30:38.377Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:31:53.413Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:31:59.545Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:31:59.554Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:32:06.286Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:32:06.633Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:32:06.891Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:32:48.663Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:00.618Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:00.628Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:05.121Z"}
+{"level":"info","message":"User logged in: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:06.794Z"}
+{"level":"info","message":"GET /api/patients/68f7e63ccdb3d4ec5af3ca19/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:07.006Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:17.225Z"}
+{"level":"info","message":"User logged out: darshan@gmail.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:17.232Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:26.225Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:26.531Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:26.944Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:33:32.857Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:34:04.684Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:34:05.896Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-23T19:34:54.457Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:35:44.194Z"}
+{"level":"info","message":"POST /api/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:13.069Z"}
+{"level":"info","message":"New task created: Take bath for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:13.093Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:13.516Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:16.001Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:28.433Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:28.445Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:35.651Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:35.982Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:36.226Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:38.881Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68fa533b0a9f7369b964d596/skipped - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:40.826Z"}
+{"level":"info","message":"Medication Dolo marked as skipped for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:40.839Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:40.954Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:42.574Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68fa83ad50fb06d79f3cbd99/complete - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:45.787Z"}
+{"level":"info","message":"Task Take bath marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:45.797Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:45.907Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:58.037Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:36:58.590Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:41:23.086Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:41:42.205Z"}
+{"level":"info","message":"GET /api/auth/profile - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:24.437Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:30.438Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:30.444Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:39.544Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:39.884Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:40.136Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:42.879Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:48.635Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:48.644Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:55.361Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:55.666Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:56.498Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:42:59.523Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:02.858Z"}
+{"level":"info","message":"POST /api/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:33.437Z"}
+{"level":"info","message":"New task created: Tke break for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:33.445Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:33.979Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:40.049Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:46.652Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:46.658Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:58.154Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:58.464Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:43:58.822Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:04.145Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68fa856550fb06d79f3cbe17/complete - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:05.785Z"}
+{"level":"info","message":"Task Tke break marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:05.795Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:05.916Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:09.183Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:19.166Z"}
+{"level":"info","message":"POST /api/auth/logout - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:46.306Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:46.312Z"}
+{"level":"info","message":"POST /api/auth/login - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:52.076Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:52.368Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 192.168.1.11","service":"adaptive-care-api","timestamp":"2025-10-23T19:44:52.823Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-23T19:45:35.366Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-24T05:28:51.868Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:38:36.661Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:38:36.787Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:38:36.964Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:38:46.446Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T05:38:46.461Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:20.094Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:20.776Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:21.013Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:39.423Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:45.116Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:48.293Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:55.969Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T05:44:55.984Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:45:02.648Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T05:45:03.333Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:45:03.576Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:45:25.428Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:45:30.899Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:45:33.066Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:46:29.137Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T05:46:29.150Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:59:39.596Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T05:59:39.929Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:59:40.787Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:59:48.098Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T05:59:49.474Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:23.694Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:34.993Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:35.000Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:41.962Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:42.305Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:43.188Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:44.178Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:45.793Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:51.083Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:51.098Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:57.262Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:57.592Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:57.875Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:00:59.795Z"}
+{"level":"info","message":"POST /api/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:13.120Z"}
+{"level":"info","message":"New medication created: Dolo for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:13.160Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:13.693Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:21.348Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:21.362Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:26.841Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:27.476Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:27.715Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:29.929Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68fb1629552c5aa17abcfbb9/taken - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:39.010Z"}
+{"level":"info","message":"Medication Dolo marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:39.033Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:39.333Z"}
+{"level":"info","message":"POST /extract-medicine - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:01:47.090Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:02:03.697Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:02:05.120Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:02:06.973Z"}
+{"level":"info","message":"PUT /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:03:17.267Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-24T06:03:21.163Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-24T06:03:21.177Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-26T07:36:36.567Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-26T07:37:05.609Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-26T07:39:05.790Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-26T07:39:22.497Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:58:53.292Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T07:58:53.690Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:58:54.093Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:58:57.741Z"}
+{"level":"info","message":"POST /api/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:19.504Z"}
+{"level":"info","message":"New medication created: Dolou for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:19.527Z"}
+{"level":"info","message":"Created 30 notifications for medication 68fdd4d72061f7189e51b7b4","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:19.600Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:20.643Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:27.646Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:27.655Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:33.570Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:33.883Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:34.261Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:39.378Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:47.740Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:49.651Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:51.752Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:59.948Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T07:59:59.955Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:06.252Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:06.565Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:06.852Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:08.398Z"}
+{"level":"info","message":"POST /api/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:30.389Z"}
+{"level":"info","message":"New task created: M for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:30.412Z"}
+{"level":"error","message":"Failed to create notification for task 68fdd51e2061f7189e51b83e: recurring is not defined","service":"adaptive-care-api","stack":"ReferenceError: recurring is not defined\n    at createTaskNotification (C:\\Users\\Lenovo\\Downloads\\ALZ_CARE_APP_v2 - Copy\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\taskController.js:64:16)\n    at C:\\Users\\Lenovo\\Downloads\\ALZ_CARE_APP_v2 - Copy\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\taskController.js:29:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-26T08:00:30.413Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:30.964Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:36.433Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:36.440Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:42.209Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:42.528Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:42.878Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:00:48.897Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:01:07.347Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:01:10.339Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:01:15.286Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-26T08:01:15.838Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-26T17:09:07.106Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-27T15:06:10.858Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:07:42.486Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:07:42.569Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:07:42.705Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:07:50.813Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-27T15:07:50.821Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:05.554Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:05.878Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:06.099Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:08.373Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68fb1629552c5aa17abcfbb9/skipped - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:47.291Z"}
+{"level":"info","message":"Medication Dolo marked as skipped for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:47.322Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:47.499Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68fa533b0a9f7369b964d596/skipped - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:49.603Z"}
+{"level":"info","message":"Medication Dolo marked as skipped for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:49.613Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:49.761Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/68fdd4d72061f7189e51b7b4/taken - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:51.974Z"}
+{"level":"info","message":"Medication Dolou marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:51.983Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:52.050Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:55.729Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:08:57.078Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:09:36.097Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:09:40.372Z"}
+{"level":"info","message":"User logged out: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-27T15:09:40.382Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:14.507Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:14.866Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:15.725Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:40.353Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:40.690Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:40.918Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:44.079Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:45.074Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:47.361Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:18:52.611Z"}
+{"level":"info","message":"POST /api/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:19:38.358Z"}
+{"level":"info","message":"New task created: Tke rest for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-27T15:19:38.387Z"}
+{"level":"error","message":"Failed to create notification for task 68ff8d8ad0dd33093df741b0: recurring is not defined","service":"adaptive-care-api","stack":"ReferenceError: recurring is not defined\n    at createTaskNotification (C:\\Users\\Lenovo\\Downloads\\ALZ_CARE_APP_v2 - Copy\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\taskController.js:64:16)\n    at C:\\Users\\Lenovo\\Downloads\\ALZ_CARE_APP_v2 - Copy\\CareApp - Copy\\CareApp\\backend\\src\\controllers\\taskController.js:29:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-10-27T15:19:38.389Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:19:39.005Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-27T15:19:42.325Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:19:52.022Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/68fdd51e2061f7189e51b83e/complete - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:20:35.814Z"}
+{"level":"info","message":"Task M marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-27T15:20:35.823Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:20:35.977Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.197","service":"adaptive-care-api","timestamp":"2025-10-27T15:21:28.865Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-27T15:24:04.262Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-27T15:35:17.485Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-28T08:43:51.843Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:12.294Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:12.379Z"}
+{"level":"info","message":"GET /api/auth/profile - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:12.493Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:22.802Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:22.809Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:49.329Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:49.663Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:50.484Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:53:52.002Z"}
+{"level":"info","message":"DELETE /api/medications/68fa533b0a9f7369b964d596 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:11.942Z"}
+{"level":"info","message":"Medication deleted: Dolo","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:11.957Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:12.060Z"}
+{"level":"info","message":"DELETE /api/medications/68fb1629552c5aa17abcfbb9 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:13.396Z"}
+{"level":"info","message":"Medication deleted: Dolo","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:13.406Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:13.574Z"}
+{"level":"info","message":"DELETE /api/medications/68fdd4d72061f7189e51b7b4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:14.782Z"}
+{"level":"info","message":"Medication deleted: Dolou","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:14.792Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:14.887Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:15.770Z"}
+{"level":"info","message":"DELETE /api/tasks/68ff8d8ad0dd33093df741b0 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:20.548Z"}
+{"level":"info","message":"Task deleted: Tke rest","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:20.557Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:20.674Z"}
+{"level":"info","message":"DELETE /api/tasks/68fa83ad50fb06d79f3cbd99 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:22.414Z"}
+{"level":"info","message":"Task deleted: Take bath","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:22.423Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:22.536Z"}
+{"level":"info","message":"DELETE /api/tasks/68fa856550fb06d79f3cbe17 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:23.653Z"}
+{"level":"info","message":"Task deleted: Tke break","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:23.663Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:23.821Z"}
+{"level":"info","message":"DELETE /api/tasks/68fdd51e2061f7189e51b83e - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:24.946Z"}
+{"level":"info","message":"Task deleted: M","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:24.953Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:25.098Z"}
+{"level":"info","message":"GET /api/journal/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T08:54:25.927Z"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"adaptive-care-api","timestamp":"2025-10-28T11:04:47.996Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:25.827Z"}
+{"level":"info","message":"POST /api/auth/refresh - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:25.916Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:26.071Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:26.108Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:39.188Z"}
+{"level":"info","message":"User logged in: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:39.860Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:40.718Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:06:48.896Z"}
+{"level":"info","message":"POST /api/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:14.441Z"}
+{"level":"info","message":"New medication created: Mng for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:14.491Z"}
+{"level":"info","message":"Created 30 notifications for medication 6900a3e2d238440243771335","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:14.698Z"}
+{"level":"info","message":"GET /api/medications/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:15.489Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:18.307Z"}
+{"level":"info","message":"POST /api/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:42.967Z"}
+{"level":"info","message":"New task created: Do the homework for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:43.008Z"}
+{"level":"info","message":"Created notification for task 6900a3fed23844024377137e","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:43.015Z"}
+{"level":"info","message":"GET /api/tasks/patient/68f7d9b20d4bf360e9d379c4 - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:43.608Z"}
+{"level":"info","message":"POST /api/auth/logout - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:49.298Z"}
+{"level":"info","message":"User logged out: caregiver@example.com","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:49.311Z"}
+{"level":"info","message":"POST /api/auth/login - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:55.498Z"}
+{"level":"info","message":"User logged in: patient@example.com","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:56.143Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/dashboard - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:56.335Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:07:59.134Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:08:03.404Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/journal - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:09:07.911Z"}
+{"level":"info","message":"GET /api/games/patient/68f7d9b20d4bf360e9d379c4/stats - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:09:10.991Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:06.196Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/tasks/6900a3fed23844024377137e/complete - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:11.585Z"}
+{"level":"info","message":"Task Do the homework marked as completed for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:11.604Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/tasks - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:11.663Z"}
+{"level":"info","message":"POST /api/patients/68f7d9b20d4bf360e9d379c4/medications/6900a3e2d238440243771335/taken - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:14.225Z"}
+{"level":"info","message":"Medication Mng marked as taken for patient 68f7d9b20d4bf360e9d379c4","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:14.242Z"}
+{"level":"info","message":"GET /api/patients/68f7d9b20d4bf360e9d379c4/medications - 10.100.235.72","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:14.316Z"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"adaptive-care-api","timestamp":"2025-10-28T11:11:20.443Z"}
