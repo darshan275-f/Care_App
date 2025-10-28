@@ -422,3 +422,47 @@ export const gameService = {
     }
   },
 };
+
+// Chat services
+export const chatService = {
+  sendMessage: async (senderId, receiverId, content) => {
+    try {
+      const response = await api.post('/sendMessage', { senderId, receiverId, content });
+      return { success: true, data: handleApiResponse(response) };
+    } catch (error) {
+      return { success: false, error: handleApiError(error) };
+    }
+  },
+  getMessages: async (user1, user2, limit = 100) => {
+    try {
+      const response = await api.get('/getMessages', { params: { user1, user2, limit } });
+      return { success: true, data: handleApiResponse(response) };
+    } catch (error) {
+      return { success: false, error: handleApiError(error) };
+    }
+  },
+};
+
+// Health data services
+export const healthService = {
+  getToday: async (userId) => {
+    try {
+      const response = await api.get('/healthData', { params: { userId } });
+      return { success: true, data: handleApiResponse(response) };
+    } catch (error) {
+      return { success: false, error: handleApiError(error) };
+    }
+  },
+};
+
+// Tips services
+export const tipService = {
+  getDailyTip: async () => {
+    try {
+      const response = await api.get('/dailyTip');
+      return { success: true, data: handleApiResponse(response) };
+    } catch (error) {
+      return { success: false, error: handleApiError(error) };
+    }
+  },
+};

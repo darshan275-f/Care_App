@@ -27,6 +27,9 @@ const taskRoutes = require('./routes/tasks');
 const journalRoutes = require('./routes/journal');
 const gameRoutes = require('./routes/games');
 const notificationRoutes = require('./routes/notifications');
+const messageRoutes = require('./routes/messages');
+const healthRoutes = require('./routes/health');
+const tipRoutes = require('./routes/tips');
 
 // Connect to database
 connectDB();
@@ -206,6 +209,9 @@ app.use('/api/tasks', taskRoutes);
 app.use('/api/journal', journalRoutes);
 app.use('/api/games', gameRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api', messageRoutes);
+app.use('/api', healthRoutes);
+app.use('/api', tipRoutes);
 
 // 404 handler
 app.use(notFound);

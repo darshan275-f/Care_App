@@ -3,6 +3,7 @@ import { OCR_SPACE_API_KEY } from '@env';
 
 export const extractTextFromImage = async (imageUri) => {
   try {
+    console.log(OCR_SPACE_API_KEY);
     if (!OCR_SPACE_API_KEY) throw new Error('OCR_SPACE_API_KEY not set');
 
     const base64 = await FileSystem.readAsStringAsync(imageUri, { encoding: FileSystem.EncodingType.Base64 });

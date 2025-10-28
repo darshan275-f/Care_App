@@ -32,12 +32,17 @@ import CaregiverSettingsScreen from '../screens/Caregiver/SettingsScreen';
 // Shared screens
 import LoadingScreen from '../screens/Shared/LoadingScreen';
 import ProfileScreen from '../screens/Shared/ProfileScreen';
+import ChatScreen from '../screens/Shared/ChatScreen';
+import HealthLogScreen from '../screens/Patient/HealthLogScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
 // Patient Tab Navigator
 const PatientTabNavigator = () => {
+  const { user } = useAuth();
+  const defaultPeer = user?.linkedCaregivers?.[0]?._id || null;
+  const defaultPeerName = user?.linkedCaregivers?.[0]?.name || 'Caregiver';
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -59,6 +64,12 @@ const PatientTabNavigator = () => {
               break;
             case 'PatientGames':
               iconName = 'games';
+              break;
+            case 'PatientHealth':
+              iconName = 'favorite';
+              break;
+            case 'PatientChat':
+              iconName = 'chat';
               break;
             case 'PatientSettings':
               iconName = 'settings';
@@ -101,11 +112,27 @@ const PatientTabNavigator = () => {
         }}
       />
       <Tab.Screen 
+        name="PatientHealth" 
+        component={HealthLogScreen}
+        options={{ 
+          title: 'Health',
+          tabBarLabel: 'Health'
+        }}
+      />
+      <Tab.Screen 
         name="PatientMedications" 
         component={PatientMedicationsScreen}
         options={{ 
           title: 'Medications',
           tabBarLabel: 'Medications'
+        }}
+      />
+      <Tab.Screen 
+        name="PatientChat" 
+        children={(props) => <ChatScreen {...props} route={{...props.route, params: { peerId: defaultPeer, peerName: defaultPeerName }}} />}
+        options={{ 
+          title: 'Chat',
+          tabBarLabel: 'Chat'
         }}
       />
       <Tab.Screen 
@@ -146,6 +173,7 @@ const PatientTabNavigator = () => {
 
 // Caregiver Tab Navigator
 const CaregiverTabNavigator = () => {
+  const { user } = useAuth();
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -170,6 +198,9 @@ const CaregiverTabNavigator = () => {
               break;
             case 'CaregiverSettings':
               iconName = 'settings';
+              break;
+            case 'CaregiverChat':
+              iconName = 'chat';
               break;
             default:
               iconName = 'help';
@@ -206,6 +237,17 @@ const CaregiverTabNavigator = () => {
         options={{ 
           title: 'Dashboard',
           tabBarLabel: 'Dashboard'
+        }}
+      />
+      <Tab.Screen 
+        name="CaregiverChat" 
+        children={(props) => {
+          const firstPatient = user?.linkedPatients?.[0];
+          return <ChatScreen {...props} route={{...props.route, params: { peerId: firstPatient?._id || null, peerName: firstPatient?.name || 'Patient' }}} />;
+        }}
+        options={{ 
+          title: 'Chat',
+          tabBarLabel: 'Chat'
         }}
       />
       <Tab.Screen 
