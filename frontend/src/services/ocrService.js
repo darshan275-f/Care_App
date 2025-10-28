@@ -3,8 +3,12 @@ import { OCR_SPACE_API_KEY } from '@env';
 
 export const extractTextFromImage = async (imageUri) => {
   try {
-    console.log(OCR_SPACE_API_KEY);
-    if (!OCR_SPACE_API_KEY) throw new Error('OCR_SPACE_API_KEY not set');
+    // If the API key isn't set, don't throw — return an empty result so
+    // callers (e.g. MedicineScanner) can continue to function.
+    if (!OCR_SPACE_API_KEY) {
+      console.warn('OCR_SPACE_API_KEY not set — OCR disabled. Set OCR_SPACE_API_KEY in your environment to enable OCR.');
+      return [];
+    }
 
     const base64 = await FileSystem.readAsStringAsync(imageUri, { encoding: FileSystem.EncodingType.Base64 });
 
@@ -19,14 +23,20 @@ export const extractTextFromImage = async (imageUri) => {
       body: formData
     });
 
+    if (!res.ok) {
+      console.warn('OCR.Space responded with non-OK status', res.status);
+      return [];
+    }
+
     const json = await res.json();
     if (!json.ParsedResults || !json.ParsedResults.length) return [];
 
-    const text = json.ParsedResults[0].ParsedText;
+    const text = json.ParsedResults[0].ParsedText || '';
     return text.split('\n').map(l => l.trim()).filter(Boolean);
 
   } catch (err) {
+    // Log and return empty array so UI doesn't crash; callers expect an array.
     console.error('OCR.Space error:', err);
-    throw err;
+    return [];
   }
 };
